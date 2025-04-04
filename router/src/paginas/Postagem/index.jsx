@@ -20,7 +20,7 @@ export default function Postagem() {
     return (
         <PostModelo
             /* a imagem de capa está em /assets/posts/id/capa.png */
-            fotoCapa={`../../src/assets/posts/${post.id}/capa.png`}
+            fotoCapa={`/assets/posts/${post.id}/capa.png`}
             /* o titulo está no json do post */
             titulo={post.titulo}
         >

@@ -6,7 +6,7 @@ export default function Post(props) {
             <div className={styles.post}>
                 <img
                     className={styles.capa}
-                    src={`src/assets/posts/${props.post.id}/capa.png`}
+                    src={`/assets/posts/${props.post.id}/capa.png`}
                     alt="imagem de capa do post"
                 />
                 <h2 className={styles.titulo}>{props.post.titulo}</h2>
